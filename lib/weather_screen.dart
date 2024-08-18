@@ -141,12 +141,12 @@ class _WeatherScreenState extends State<WeatherScreen> {
                   final currHumidity = data['main']['humidity'];
                   final currPressure = data['main']['pressure'];
                   final currWind = data['wind']['speed'];
-
                   return Column(
                     children: [
-                      // Card with current weather info
+                      
                       SizedBox(
                         width: double.infinity,
+                        //card 
                         child: Card(
                           shape: const RoundedRectangleBorder(
                             borderRadius: BorderRadius.all(
